@@ -13,5 +13,40 @@ namespace RentBook
         {
 
         }
+
+        protected void imgbtnMainPage_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("Mainpage.aspx");
+        }
+
+        protected void btnMemberlist_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Mainpage.aspx");
+        }
+
+        protected void btnConbooklist_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Mainpage.aspx");
+        }
+
+        protected void btnRentlist_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Mainpage.aspx");
+        }
+
+        protected void btnMemberregister_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("MemberRegister.aspx");
+        }
+
+        protected void btnRentbook_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Mainpage.aspx");
+        }
+
+        protected void btnLogout_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Mainpage.aspx");
+        }
     }
 }
